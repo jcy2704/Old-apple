@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# New York Times Article
+# Old Apple Page
 
-> Using the New York Times website we created a site using HTML and CSS and worked based on an article selected. This article specifically lead us to learn more about grids and positioning.
+> The Old Apple page, had many fundaments such as on how to use an image as a background, the use of gradient, and grid.
 
 ![screenshot](Screenshot.png)
 
-We created a project based on a New York Times Article. The article had many grids which lead us to learn and use CSS grids and positioning. It have a nav bar and also includes the same article information we used as well as a video. We also included the footer.
+The project was created based on an Old site of Apple. We based our project on the site for the learning on how to use an image as a background as well as how to use gradients.
 
 ## Built With
 
@@ -15,12 +15,12 @@ We created a project based on a New York Times Article. The article had many gri
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jcy2704/NYT-CSS/fd5bcea9dfc9bb0f96a26b08aee15b398c257a8c/index.html)
+[Live Demo Link](https://rawcdn.githack.com/jcy2704/Old-apple/ebbbd9622510444bf03d0510c7df6ed52403b826/index.html)
 
 
 ## Getting Started
 
-**This project was created for the sole purpose of learning how to use CSS grid, positioning and flex. The following will be instructions on how you can see the project on your own computer.**
+**This project was created for the sole purpose of learning how to use CSS gradient and image as background. The following will be instructions on how you can see the project on your own computer.**
 
 
 To get a local copy up and running follow these simple example steps.
@@ -58,7 +58,7 @@ Linters errors
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jcy2704/NYT-CSS/issues).
+Feel free to check the [issues page](https://github.com/jcy2704/Old-apple/issues).
 
 ## Show your support
 
