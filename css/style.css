@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.bordered {
+  border: 1px solid black;
+}
+
+.inner-container {
+  display: grid;
+  width: 1100px;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 300px;
+  grid-template-rows: 40px;
+  margin: 40px auto;
+  text-align: center;
+  align-items: center;
+  background-color: gray;
+  border-radius: 60px;
+}
+
+.main-section {
+  position: absolute;
+  width: 1500px;
+  height: 1300px;
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+  background-size: 1500px 1300px;
+  margin: 0 auto;
+}
