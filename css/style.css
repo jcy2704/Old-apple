@@ -10,12 +10,11 @@ body {
 .navbar {
   position: relative;
   width: 1100px;
-  background-image: linear-gradient(gray, gray, gray, gray, rgb(71, 71, 71), rgb(71, 71, 71), rgb(71, 71, 71), rgb(71, 71, 71));
+  background-image: linear-gradient(rgb(95, 95, 95), rgb(117, 117, 117), gray, gray, rgb(71, 71, 71), rgb(71, 71, 71), rgb(90, 90, 90), rgb(99, 99, 99));
   border-radius: 4px;
   z-index: 1;
   margin: 80px auto;
   box-shadow: 0px 0px 1px 1px rgb(56, 56, 56);
-  
 }
 
 .inner-container {
@@ -27,21 +26,19 @@ body {
   align-items: center;
 }
 
-
-.navitem:hover {
-  background-color: rgb(80, 80, 80);;
-}
-
 .navitem {
-  border-right: 1px solid rgba(71, 71, 71, 0.801);
+  border-right: 1px solid rgba(100, 100, 100, 0.801);
   padding: 11px;
 }
 
-
-.navitem a{
+.navitem a {
   text-decoration: none;
   color: white;
   font-size: 13px;
+}
+
+.navitem:hover {
+  background-color: rgb(71, 71, 71);
 }
 
 .fa-apple {
@@ -110,42 +107,77 @@ body {
 .products {
   display: block;
   margin: 0 auto;
+  width: 100%;
 }
 
 .items {
-  text-align: center;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1465px;
+}
+
+.items li {
+  display: inline;
+}
+
+.promo {
+  max-width: 363px;
+  min-width: 360px;
+}
+
+.online {
+  text-decoration: none;
 }
 
 footer {
-  display: flex;
-}
-.left-footer {
-  width: 50%;
-  font-size: 11px;
-  color: gray;
-  padding: 30px 0px 20px 120px;
-}
-
-.right-footer {
-  width: 50%;
-  font-size: 11px;
-  color: gray;
-  padding: 30px 120px 20px 0px;
+  display: block;
+  min-width: 980px;
+  width: 100%;
+  height: 90px;
+  padding: 0;
+  color: #6e6e6e;
+  font-size: .8334em;
+  line-height: 1.2;
+  text-align: center;
 }
 
-.left-footer a {
-  color: rgb(11, 116, 202);
+.footer-container {
+  margin: 0 auto;
+  width: 1100px;
+  padding: 1em 0 2.6em;
+}
+
+.copyright {
+  float: left;
+}
+
+.copyright a {
   text-decoration: none;
-}
-.right-footer a {
-  color: rgb(11, 116, 202);
-  text-decoration: none;
+  color: rgb(19, 153, 206);
 }
 
-.left-footer p {
-  line-height: 2;
+.extras {
+  float: right;
+}
+
+.extras-list {
+  list-style: none;
+}
+
+.extras-list li {
+  display: inline-block;
+  border-right: 1px solid rgba(128, 128, 128, 0.568);
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.extras-list li a {
+  text-decoration: none;
+  color: rgb(19, 153, 206);
 }
 
 .flag {
-  margin-top: 10px;
+  padding-left: 10px;
 }
