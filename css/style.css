@@ -9,12 +9,14 @@ body {
 
 .navbar {
   position: relative;
-  width: 1100px;
+  min-width: 700px;
+  max-width: 1100px;
   background-image: linear-gradient(rgb(95, 95, 95), rgb(117, 117, 117), gray, gray, rgb(71, 71, 71), rgb(71, 71, 71), rgb(90, 90, 90), rgb(99, 99, 99));
   border-radius: 4px;
   z-index: 1;
   margin: 80px auto;
   box-shadow: 0 0 1px 1px rgb(56, 56, 56);
+  overflow: hidden;
 }
 
 .inner-container {
@@ -63,6 +65,7 @@ body {
 .main-content {
   margin-top: -750px;
   padding-bottom: 5px;
+  overflow: hidden;
 }
 
 .main-section {
@@ -71,6 +74,7 @@ body {
   background-size: 1480px 1300px;
   margin: 0 auto;
   height: 1300px;
+
 }
 
 .header-titles {
@@ -108,23 +112,30 @@ body {
   display: block;
   margin: 0 auto;
   width: 100%;
+  overflow: hidden;
 }
 
 .items {
   list-style: none;
-  width: 100%;
   padding: 0;
   margin: 0 auto;
+  min-width: 1300px;
   max-width: 1465px;
+  height: 200px;
+  overflow: hidden;
 }
 
 .items li {
   display: inline;
 }
 
+.items a {
+  text-decoration: none;
+}
+
 .promo {
   max-width: 363px;
-  min-width: 360px;
+  min-width: 200px;
 }
 
 .online {
@@ -133,7 +144,7 @@ body {
 
 footer {
   display: block;
-  min-width: 980px;
+  min-width: 700px;
   width: 100%;
   height: 90px;
   padding: 0;
@@ -141,6 +152,7 @@ footer {
   font-size: 0.8334em;
   line-height: 1.2;
   text-align: center;
+  overflow: hidden;
 }
 
 .footer-container {
